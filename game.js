@@ -1,4 +1,4 @@
-import { placeMines, computeAdjacency, floodReveal, checkWin, neighbors } from "./logic.js";
+import { placeMines, computeAdjacency, floodReveal, checkWin } from "./logic.js";
 
 const gridEl = document.getElementById("grid");
 const minesEl = document.getElementById("mines");
@@ -114,4 +114,3 @@ function render() {
 document.getElementById("new").addEventListener("click", start);
 document.getElementById("level").addEventListener("change", start);
 start();
-export { neighbors }; // keep tree-shakers honest; no-op in browser

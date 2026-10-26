@@ -24,4 +24,4 @@ bun test        # adjacency, flood-fill, safe placement, win detection
 ## Deploy
 Static → **GitHub Pages** via `.github/workflows/pages.yml`.
 
-MIT.
+MIT — see [LICENSE](LICENSE).
